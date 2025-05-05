@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List - JS</title>
+  </head>
+  <body>
+    <div id="todo-container">
+      <!-- header -->
+      <div id="header">
+        <h1>Todo List - JS</h1>
+      </div>
+
+      <!-- input box -->
+      <div id="input-form">
+        <input type="text" class="input-item" placeholder="Add Task" id="input-box" />
+        <button id="input-btn" onclick="addTask()">Add</button>
+      </div>
+
+      <!-- Task List -->
+      <h2>Task List</h2>
+      <ul id="list-container"></ul>
+
+      <hr />
+      <!-- Task list counter -->
+      <div id="counter-container">
+        <div id="task-counters">
+          Completed: <span id="completed-counter">0</span> | Uncompleted:
+          <span id="uncompleted-counter">0</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- link to js -->
+    <script src="main.js"></script>
+  </body>
+</html>
