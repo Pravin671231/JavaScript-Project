@@ -1,4 +1,6 @@
-const apiKey = "8de61cb06025dc1878f27625b95029d2";
+require("dotenv").config();
+
+const apiKey = process.env.OPENWEATHERMAP_API_KEY;
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
 
 const locationInput = document.getElementById("locationInput");
