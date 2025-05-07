@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/399610/pexels-photo-399610.jpeg?cs=srgb&dl=pexels-grizzlybear-399610.jpg&fm=jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+p{
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+.newyear{
+    font-family: "Matemasie", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    
+}
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.box h2{
+    font-size: 25px;
+}
+.box span{
+    font-size: 15px;
+}
+@media(min-width:576px){
+    .newyear{
+        font-size: 60px;
+    } 
+    p{
+        font-size: 18px;
+    }
+    .box h2{
+        font-size: 35px;
+    }
+    .box span{
+        font-size: 20px;
+    }
+    .box{
+        width: 75px;
+        height: 75px;
+    }
+    
+}
+
+@media(min-width:786px) {
+    .newyear{
+        font-size: 100px;
+    }
+    p{
+        font-size: 30px;
+    }
+    .box h2{
+        font-size: 45px;
+    }
+    .box span{
+        font-size: 25px;
+    }
+    .box{
+        width: 120px;
+        height: 120px;
+}
+}
